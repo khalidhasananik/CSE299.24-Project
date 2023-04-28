@@ -341,15 +341,14 @@
 							<div class="form-group">
 								<label for="height">Height</label>
 								<div class="d-flex">
-									<input type="text" class="form-control mr-2" id="height"
-										placeholder="Feet (eg. 5.8)" />
+									<input type="text" class="form-control mr-2" id="height" placeholder="in cm" />
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="d-flex">
 									<div class="mr-2">
 										<label for="weight">Weight</label>
-										<input type="text" class="form-control" id="weight" placeholder="KG (eg. 70)" />
+										<input type="text" class="form-control" id="weight" placeholder="in kg" />
 									</div>
 								</div>
 							</div>
@@ -374,18 +373,20 @@
 						<div class="ftco-footer-widget mb-4">
 							<h2 class="ftco-heading-2">About Us</h2>
 							<p>
-								Far far away, behind the word mountains, far from the countries
-								Vokalia and Consonantia, there live the blind texts.
+								The largest lifestyle lounge in town which is equipped with cutting edge technology,
+								magnificent amb
 							</p>
 							<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 								<li class="ftco-animate">
 									<a href="#"><span class="icon-twitter"></span></a>
 								</li>
 								<li class="ftco-animate">
-									<a href="#"><span class="icon-facebook"></span></a>
+									<a href="https://www.facebook.com/StarbaseClub/"><span
+											class="icon-facebook"></span></a>
 								</li>
 								<li class="ftco-animate">
-									<a href="#"><span class="icon-instagram"></span></a>
+									<a href="https://www.instagram.com/starbaseclub/"><span
+											class="icon-instagram"></span></a>
 								</li>
 							</ul>
 						</div>
@@ -480,7 +481,7 @@
 				let height = document.getElementById("height").value;
 				let weight = document.getElementById("weight").value;
 				if (height && weight) {
-					height = 0.3048 * height;
+					height = 0.01 * height;
 					let bmi = (weight / (height * height)).toFixed(2);
 					if (bmi < 18.5) {
 						document.getElementById("bmi").value = bmi + " - Underweight";
