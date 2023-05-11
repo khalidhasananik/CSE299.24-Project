@@ -1724,9 +1724,9 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #fcd307; }
+  color: #7d1515; }
   a:hover, a:active, a:focus {
-    color: #fcd307;
+    color: #7d1515;
     outline: none !important;
     text-decoration: none !important; }
 
