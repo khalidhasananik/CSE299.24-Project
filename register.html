@@ -181,7 +181,7 @@
           <h2 class="title2">Registration Form</h2>
         </div>
 
-        <form method="POST">
+        <form action="register.php" method="POST">
           <div class="row row-space">
             <div class="col-2">
               <div class="input-group">
@@ -210,7 +210,7 @@
               <div class="input-group">
                 <label class="label">Gender</label>
                 <div class="rs-select2 js-select-simple select--no-search">
-                  <select title="Select" name="subject">
+                  <select title="Select" name="gender">
                     <option disabled="disabled" selected="selected">Choose Gender</option>
                     <option>Male</option>
                     <option>Female</option>
@@ -238,7 +238,7 @@
           <div class="input-group">
             <label class="label">Membership Plan</label>
             <div class="rs-select2 js-select-simple select--no-search">
-              <select title="Select" name="subject">
+              <select title="Select" name="plan">
                 <option disabled="disabled" selected="selected">Choose Option</option>
                 <option>General</option>
                 <option>Phoenix</option>
@@ -248,7 +248,7 @@
             </div>
           </div>
           <div class="p-t-15">
-            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+            <button class="btn btn--radius-2 btn--blue" type="submit" name="save">Submit</button>
           </div>
           <div class="text-center p-t-15">
             <a class="txt2" href="login.html">
