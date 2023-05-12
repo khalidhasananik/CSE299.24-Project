@@ -530,13 +530,10 @@ pre code {
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  justify-content: center;
+  margin-right: 4px;
+  margin-left: -66px;
 }
 
 .no-gutters {
@@ -2825,11 +2822,11 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
-  font-size: 16vw;
+  font-size: 15vw;
   display: block;
   -webkit-text-fill-color: transparent;
   /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #ffffff;
 }
 
@@ -4099,7 +4096,7 @@ textarea.form-control {
   font-size: 14px;
   display: block;
   margin-bottom: 10px;
-  color: #fcd307;
+  color: #ffffff;
   line-height: 1;
   z-index: 1;
   font-weight: 700;
@@ -4126,7 +4123,7 @@ textarea.form-control {
   content: '';
   width: 6px;
   height: 4px;
-  background: #fcd307;
+  background: #ffffff;
 }
 
 .heading-section .subheading small:before {
@@ -4139,7 +4136,7 @@ textarea.form-control {
   content: '';
   width: 6px;
   height: 4px;
-  background: #fcd307;
+  background: #ffffff;
 }
 
 .heading-section .subheading small i {
@@ -4156,7 +4153,7 @@ textarea.form-control {
   content: '';
   width: 4px;
   height: 20px;
-  background: #fcd307;
+  background: #ffffff;
 }
 
 .heading-section .subheading small i.left-bar:before {
@@ -4169,7 +4166,7 @@ textarea.form-control {
   content: '';
   width: 4px;
   height: 14px;
-  background: #fcd307;
+  background: #ffffff;
 }
 
 .heading-section .subheading small i.right-bar:after {
@@ -4182,7 +4179,7 @@ textarea.form-control {
   content: '';
   width: 4px;
   height: 20px;
-  background: #fcd307;
+  background: #ffffff;
 }
 
 .heading-section .subheading small i.right-bar:before {
@@ -4195,7 +4192,7 @@ textarea.form-control {
   content: '';
   width: 4px;
   height: 14px;
-  background: #fcd307;
+  background: #ffffff;
 }
 
 .heading-section h2 {
@@ -4206,10 +4203,11 @@ textarea.form-control {
   line-height: 1.2;
   letter-spacing: 1px;
   font-style: italic;
+  color: #ffffff;
 }
 
 .heading-section h2 span {
-  color: #fcd307;
+  color: #ffffff;
 }
 
 @media (max-width: 767.98px) {
