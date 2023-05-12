@@ -1,9 +1,8 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+@font-face {
+  font-family: Astera;
+  src: url(../fonts/astera/ASTERA\ v2.ttf);
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -43,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Astera;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -2059,12 +2058,12 @@ button.bg-dark:focus {
 
 .pb-1,
 .py-1 {
-  padding-bottom: 0 !important;
+  padding-bottom: 0.25rem !important;
 }
 
 
 .py-2 {
-  padding-top: 0 !important;
+  padding-top: 0.5rem !important;
 }
 
 
@@ -2349,7 +2348,8 @@ h5,
 .ftco-navbar-light {
   background: fixed;
   position: absolute;
-  top: 50px;
+  height: 66px;
+  top: 36px;
   left: 0;
   right: 0;
   z-index: 3;
@@ -2372,6 +2372,8 @@ h5,
 
 .ftco-navbar-light .navbar-brand span {
   color: #fff;
+  letter-spacing: 5px;
+  font-size: 35px;
 }
 
 .ftco-navbar-light .navbar-brand:hover,
@@ -2545,32 +2547,7 @@ h5,
 
 .navbar-brand span {
   position: relative;
-}
-
-.navbar-brand span:after {
-  position: absolute;
-  top: 50%;
-  left: -7px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  content: '';
-  width: 6px;
-  height: 4px;
-  background: #fcd307;
-}
-
-.navbar-brand span:before {
-  position: absolute;
-  top: 50%;
-  right: -7px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  content: '';
-  width: 6px;
-  height: 4px;
-  background: #fcd307;
+  font-family: astera;
 }
 
 .navbar-brand span i {
