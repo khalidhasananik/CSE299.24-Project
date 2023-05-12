@@ -3,6 +3,9 @@
   src: url(../fonts/astera/ASTERA\ v2.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -42,7 +45,7 @@
 }
 
 html {
-  font-family: Astera;
+  font-family: Astera, Lato;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -454,6 +457,14 @@ pre code {
   margin-left: auto;
 }
 
+.container2 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -478,12 +489,44 @@ pre code {
   }
 }
 
+@media (min-width: 576px) {
+  .container2 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container2 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container2 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container2 {
+    max-width: 1140px;
+  }
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container2-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .row {
@@ -1188,6 +1231,21 @@ fieldset:disabled a.btn {
   justify-content: space-between;
 }
 
+.navbar>.container2,
+.navbar>.container2-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -1260,6 +1318,15 @@ fieldset:disabled a.btn {
   }
 }
 
+@media (max-width: 991.98px) {
+
+  .navbar-expand-lg>.container2,
+  .navbar-expand-lg>.container2-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     -webkit-box-orient: horizontal;
@@ -1293,12 +1360,19 @@ fieldset:disabled a.btn {
     flex-wrap: nowrap;
   }
 
+  .navbar-expand-lg>.container2,
+  .navbar-expand-lg>.container2-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
   .navbar-expand-lg .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+    padding-left: 825px;
   }
 
   .navbar-expand-lg .navbar-toggler {
@@ -2325,7 +2399,7 @@ h5,
 }
 
 .top {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -2333,6 +2407,8 @@ h5,
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   background: #101010;
+  padding-left: 1700px;
+  margin-bottom: 2px;
 }
 
 @media (max-width: 991.98px) {
@@ -2348,8 +2424,8 @@ h5,
 .ftco-navbar-light {
   background: fixed;
   position: absolute;
-  height: 66px;
-  top: 36px;
+  height: 100px;
+  top: 34px;
   left: 0;
   right: 0;
   z-index: 3;
@@ -2371,9 +2447,9 @@ h5,
 }
 
 .ftco-navbar-light .navbar-brand span {
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 5px;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .ftco-navbar-light .navbar-brand:hover,
@@ -2394,6 +2470,7 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+  font-family: lato;
   font-size: 14px;
   padding-top: .8rem;
   padding-bottom: .8rem;
@@ -4169,7 +4246,21 @@ textarea.form-control {
   transition: all 0.3s ease-out;
 }
 
+.mfp-with-zoom .mfp-container2,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
 .mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container2 {
   opacity: 1;
 }
 
@@ -4178,6 +4269,11 @@ textarea.form-control {
 }
 
 .mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container2,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
