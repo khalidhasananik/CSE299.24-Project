@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Registration Page">
+  <meta name="author" content="Team Alpha">
+  <meta name="keywords" content="Starbase Lifestyle Lounge">
+
+  <title>Starbase Registration</title>
+  <link rel="icon" type="image/png" href="login/images/icons/favicon.ico" />
+
+  <link href="register/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+  <link href="register/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+
+  <link href="register/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+  <link href="register/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+
+  <link href="register/css/main.css" rel="stylesheet" media="all">
+  <meta name="robots" content="noindex, follow">
+  <script
+    nonce="f2b801de-dd17-44fa-9963-a735e98615b9">(function (w, d) { !function (dk, dl, dm, dn) { dk[dm] = dk[dm] || {}; dk[dm].executed = []; dk.zaraz = { deferred: [], listeners: [] }; dk.zaraz.q = []; dk.zaraz._f = function (dp) { return function () { var dq = Array.prototype.slice.call(arguments); dk.zaraz.q.push({ m: dp, a: dq }) } }; for (const dr of ["track", "set", "debug"]) dk.zaraz[dr] = dk.zaraz._f(dr); dk.zaraz.init = () => { var ds = dl.getElementsByTagName(dn)[0], dt = dl.createElement(dn), du = dl.getElementsByTagName("title")[0]; du && (dk[dm].t = dl.getElementsByTagName("title")[0].text); dk[dm].x = Math.random(); dk[dm].w = dk.screen.width; dk[dm].h = dk.screen.height; dk[dm].j = dk.innerHeight; dk[dm].e = dk.innerWidth; dk[dm].l = dk.location.href; dk[dm].r = dl.referrer; dk[dm].k = dk.screen.colorDepth; dk[dm].n = dl.characterSet; dk[dm].o = (new Date).getTimezoneOffset(); if (dk.dataLayer) for (const dy of Object.entries(Object.entries(dataLayer).reduce(((dz, dA) => ({ ...dz[1], ...dA[1] }))))) zaraz.set(dy[0], dy[1], { scope: "page" }); dk[dm].q = []; for (; dk.zaraz.q.length;) { const dB = dk.zaraz.q.shift(); dk[dm].q.push(dB) } dt.defer = !0; for (const dC of [localStorage, sessionStorage]) Object.keys(dC || {}).filter((dE => dE.startsWith("_zaraz_"))).forEach((dD => { try { dk[dm]["z_" + dD.slice(7)] = JSON.parse(dC.getItem(dD)) } catch { dk[dm]["z_" + dD.slice(7)] = dC.getItem(dD) } })); dt.referrerPolicy = "origin"; dt.src = "../../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(dk[dm]))); ds.parentNode.insertBefore(dt, ds) };["complete", "interactive"].includes(dl.readyState) ? zaraz.init() : dk.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
+
+<body>
+  <div class="page-wrapper bg-gra-02 padding-15 font-poppins">
+    <div class="wrapper wrapper--w960">
+      <div class="card card-4">
+        <div class="card-body">
+          <div class="login100-pic js-tilt" data-tilt>
+            <a href="index.html">
+              <img src="login/images/img-06.png" alt="IMG">
+            </a>
+          </div>
+          <h2 class="title2">Registration Form</h2>
+        </div>
+
+        <form action="register.php" method="POST">
+          <div class="row row-space">
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">first name</label>
+                <input class="input--style-4" type="text" name="first_name">
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">last name</label>
+                <input class="input--style-4" type="text" name="last_name">
+              </div>
+            </div>
+          </div>
+          <div class="row row-space">
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">Birthday</label>
+                <div class="input-group-icon">
+                  <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                  <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">Gender</label>
+                <div class="rs-select2 js-select-simple select--no-search">
+                  <select title="Select" name="gender">
+                    <option disabled="disabled" selected="selected">Choose Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
+                  <div class="select-dropdown"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-space">
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">Email</label>
+                <input class="input--style-4" type="email" name="email">
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">Phone Number</label>
+                <input class="input--style-4" type="text" name="phone">
+              </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <label class="label">Membership Plan</label>
+            <div class="rs-select2 js-select-simple select--no-search">
+              <select title="Select" name="plan">
+                <option disabled="disabled" selected="selected">Choose Option</option>
+                <option>General</option>
+                <option>Phoenix</option>
+                <option>Gemini</option>
+              </select>
+              <div class="select-dropdown"></div>
+            </div>
+          </div>
+          <div class="p-t-15">
+            <button class="btn btn--radius-2 btn--blue" type="submit" name="save">Submit</button>
+          </div>
+          <div class="text-center p-t-15">
+            <p class="txt2">Already Have an Account?</p>
+            <p><a class="txt2" href="login.html">
+                Sign in
+                <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+              </a></p>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="register/vendor/jquery/jquery.min.js"></script>
+
+  <script src="register/vendor/select2/select2.min.js"></script>
+  <script src="register/vendor/datepicker/moment.min.js"></script>
+  <script src="register/vendor/datepicker/daterangepicker.js"></script>
+
+  <script src="register/js/global.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+    integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+    data-cf-beacon='{"rayId":"7c4b808d69f0a030","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
