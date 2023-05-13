@@ -69,7 +69,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #101010;
 }
 
 [tabindex="-1"]:focus {
@@ -2376,7 +2376,7 @@ body {
   line-height: 1.9;
   font-weight: 400;
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: #101010;
 }
 
 span {
@@ -3080,15 +3080,17 @@ h5,
 }
 
 .btn.btn-secondary {
-  background: #fd5f00;
-  border: 1px solid #fd5f00;
+  font-weight: 500;
+  font-size: 15px;
+  background: #ffa500;
+  border: 1px solid #ffa500;
   color: #fff;
 }
 
 .btn.btn-secondary:hover {
-  border: 1px solid #fd5f00;
+  border: 1px solid #ffa500;
   background: transparent;
-  color: #fd5f00;
+  color: #ffa500;
 }
 
 .video {
@@ -3650,7 +3652,7 @@ h5,
 .ftco-appointment {
   width: 100%;
   position: relative;
-  background: #fff;
+  background: #101010;
 }
 
 .ftco-appointment .overlay {
@@ -3659,12 +3661,12 @@ h5,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000;
+  background: #ffffff;
   opacity: 0;
 }
 
 .appointment h3 {
-  color: #000;
+  color: #ffffff;
   font-weight: 900;
   font-style: italic;
   font-size: 34px;
@@ -3681,7 +3683,7 @@ h5,
 }
 
 .appointment-form .form-group label {
-  color: #000;
+  color: #ffffff;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -3698,7 +3700,7 @@ h5,
 }
 
 .appointment-form .form-group .icon span {
-  color: black !important;
+  color: ffffff !important;
 }
 
 .appointment-form .form-group .btn {
@@ -3710,7 +3712,7 @@ h5,
   height: 52px !important;
   padding-left: 10px;
   padding-right: 10px;
-  background: transparent !important;
+  background: #ffffff !important;
   color: rgba(0, 0, 0, 0.9) !important;
   font-size: 13px;
   border-radius: 5px;
