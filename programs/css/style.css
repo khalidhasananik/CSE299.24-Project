@@ -461,8 +461,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -1372,7 +1372,7 @@ fieldset:disabled a.btn {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    padding-left: 825px;
+    padding-left: 450px;
   }
 
   .navbar-expand-lg .navbar-toggler {
@@ -2518,7 +2518,7 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-  color: #fcd307;
+  color: red;
 }
 
 @media (max-width: 991.98px) {
@@ -2553,7 +2553,7 @@ h5,
 }
 
 .ftco-navbar-light.scrolled .nav-item.active>a {
-  color: #fcd307 !important;
+  color: red !important;
 }
 
 @media (max-width: 991.98px) {
@@ -4205,6 +4205,7 @@ textarea.form-control {
   line-height: 1.2;
   letter-spacing: 1px;
   font-style: italic;
+  color: white;
 }
 
 .heading-section h2 span {
@@ -4492,6 +4493,7 @@ textarea.form-control {
   margin-bottom: 10px;
   display: inline-block;
   text-transform: uppercase;
+  color: white;
 }
 
 .block-7 .heading-2 {
@@ -4499,6 +4501,7 @@ textarea.form-control {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
+  color: white;
 }
 
 .block-7 .price {
@@ -4531,7 +4534,7 @@ textarea.form-control {
 
 .block-7 .excerpt {
   margin-bottom: 20px;
-  color: #999999;
+  color: #ffffff;
 }
 
 .block-7 .pricing-text {
@@ -4547,7 +4550,7 @@ textarea.form-control {
 .block-7 .pricing-text li {
   list-style: none;
   margin-bottom: 15px;
-  color: #4d4d4d;
+  color: #ffffff;
 }
 
 .block-7 .btn-primary {
