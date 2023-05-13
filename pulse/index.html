@@ -1,552 +1,425 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
-  <head>
-    <title>Starbase - Restaurant</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Pulse Restaurant HTML Template">
-    <meta name="keywords" content="pulse, restaurant, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Starbase - Cafe</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Restaurant">
+  <meta name="keywords" content="restaurant, creative, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="img/favicon.ico" rel="shortcut icon" />
+  <link href="img/favicon.ico" rel="shortcut icon" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
 
-    <script
-      nonce="b3451030-54b2-447a-9bcf-c29babb905d2">(function (w, d) { !function (dk, dl, dm, dn) { dk[dm] = dk[dm] || {}; dk[dm].executed = []; dk.zaraz = { deferred: [], listeners: [] }; dk.zaraz.q = []; dk.zaraz._f = function (dp) { return function () { var dq = Array.prototype.slice.call(arguments); dk.zaraz.q.push({ m: dp, a: dq }) } }; for (const dr of ["track", "set", "debug"]) dk.zaraz[dr] = dk.zaraz._f(dr); dk.zaraz.init = () => { var ds = dl.getElementsByTagName(dn)[0], dt = dl.createElement(dn), du = dl.getElementsByTagName("title")[0]; du && (dk[dm].t = dl.getElementsByTagName("title")[0].text); dk[dm].x = Math.random(); dk[dm].w = dk.screen.width; dk[dm].h = dk.screen.height; dk[dm].j = dk.innerHeight; dk[dm].e = dk.innerWidth; dk[dm].l = dk.location.href; dk[dm].r = dl.referrer; dk[dm].k = dk.screen.colorDepth; dk[dm].n = dl.characterSet; dk[dm].o = (new Date).getTimezoneOffset(); if (dk.dataLayer) for (const dy of Object.entries(Object.entries(dataLayer).reduce(((dz, dA) => ({ ...dz[1], ...dA[1] }))))) zaraz.set(dy[0], dy[1], { scope: "page" }); dk[dm].q = []; for (; dk.zaraz.q.length;) { const dB = dk.zaraz.q.shift(); dk[dm].q.push(dB) } dt.defer = !0; for (const dC of [localStorage, sessionStorage]) Object.keys(dC || {}).filter((dE => dE.startsWith("_zaraz_"))).forEach((dD => { try { dk[dm]["z_" + dD.slice(7)] = JSON.parse(dC.getItem(dD)) } catch { dk[dm]["z_" + dD.slice(7)] = dC.getItem(dD) } })); dt.referrerPolicy = "origin"; dt.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(dk[dm]))); ds.parentNode.insertBefore(dt, ds) };["complete", "interactive"].includes(dl.readyState) ? zaraz.init() : dk.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
-  </head>
+  <script
+    nonce="b3451030-54b2-447a-9bcf-c29babb905d2">(function (w, d) { !function (dk, dl, dm, dn) { dk[dm] = dk[dm] || {}; dk[dm].executed = []; dk.zaraz = { deferred: [], listeners: [] }; dk.zaraz.q = []; dk.zaraz._f = function (dp) { return function () { var dq = Array.prototype.slice.call(arguments); dk.zaraz.q.push({ m: dp, a: dq }) } }; for (const dr of ["track", "set", "debug"]) dk.zaraz[dr] = dk.zaraz._f(dr); dk.zaraz.init = () => { var ds = dl.getElementsByTagName(dn)[0], dt = dl.createElement(dn), du = dl.getElementsByTagName("title")[0]; du && (dk[dm].t = dl.getElementsByTagName("title")[0].text); dk[dm].x = Math.random(); dk[dm].w = dk.screen.width; dk[dm].h = dk.screen.height; dk[dm].j = dk.innerHeight; dk[dm].e = dk.innerWidth; dk[dm].l = dk.location.href; dk[dm].r = dl.referrer; dk[dm].k = dk.screen.colorDepth; dk[dm].n = dl.characterSet; dk[dm].o = (new Date).getTimezoneOffset(); if (dk.dataLayer) for (const dy of Object.entries(Object.entries(dataLayer).reduce(((dz, dA) => ({ ...dz[1], ...dA[1] }))))) zaraz.set(dy[0], dy[1], { scope: "page" }); dk[dm].q = []; for (; dk.zaraz.q.length;) { const dB = dk.zaraz.q.shift(); dk[dm].q.push(dB) } dt.defer = !0; for (const dC of [localStorage, sessionStorage]) Object.keys(dC || {}).filter((dE => dE.startsWith("_zaraz_"))).forEach((dD => { try { dk[dm]["z_" + dD.slice(7)] = JSON.parse(dC.getItem(dD)) } catch { dk[dm]["z_" + dD.slice(7)] = dC.getItem(dD) } })); dt.referrerPolicy = "origin"; dt.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(dk[dm]))); ds.parentNode.insertBefore(dt, ds) };["complete", "interactive"].includes(dl.readyState) ? zaraz.init() : dk.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
 
-  <body>
+<body>
 
-    <div id="preloder">
-      <div class="loader"></div>
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <header class="header-section">
+    <div class="header-warp">
+      <div class="site-logo">
+        <h2>STARBASE</h2>
+      </div>
+
+      <div class="nav-switch">
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <ul class="main-menu">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../about.html">ABOUT US</a></li>
+        <li><a href="#" class="active">CAFE</a></li>
+        <li><a href="#">SALON</a></li>
+        <li><a href="#">PARLOR</a></li>
+
+
+      </ul>
+      <div class="header-right">
+        <p><span>Reservations</span> <i class="fa fa-phone"></i>+880 17 7611 7766</p>
+      </div>
     </div>
-
-    <header class="header-section">
-      <div class="header-warp">
-        <div class="site-logo">
-          <h2>STARBASE<span>.</span></h2>
-        </div>
-
-        <div class="nav-switch">
-          <i class="fa fa-bars"></i>
-        </div>
-
-        <ul class="main-menu">
-          <!-- <li><a href="index-2.html" class="active">Home</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="menu.html">Restaurant</a></li>
-          <li><a href="blog.html">News</a></li>
-          <li><a href="contact.html">Contact</a></li> -->
-
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Restaurant</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Contact</a></li>
+  </header>
 
 
-        </ul>
-        <div class="header-right">
-          <p><span>Reservations</span> <i class="fa fa-phone"></i>+880 17 7611 7766</p>
-        </div>
-      </div>
-    </header>
+  <section class="hero-section">
+    <div class="hero-slider owl-carousel">
+      <div class="hs-item set-bg" data-setbg="img/slider/slider-1.jpg">
+        <div class="hs-content">
+          <div class="hsc-warp">
+            <h2>STARBASE CAFE<span>.</span></h2>
 
-
-    <section class="hero-section">
-      <div class="hero-slider owl-carousel">
-        <div class="hs-item set-bg" data-setbg="img/slider/slider-1.jpg">
-          <div class="hs-content">
-            <div class="hsc-warp">
-              <h2>Starbase Restaurant<span>.</span></h2>
-              <!-- <p>By Chef Francis Smith</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="hs-item set-bg" data-setbg="img/slider/slider-2.jpg">
-          <div class="hs-content">
-            <div class="hsc-warp">
-              <h2>Special Dish<span>.</span></h2>
-              <!-- <p>By Chef Francis Smith</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="hs-item set-bg" data-setbg="img/slider/slider-3.jpg">
-          <div class="hs-content">
-            <div class="hsc-warp">
-              <h2>Hygienic Food<span>.</span></h2>
-              <!-- <p>By Chef Francis Smith</p> -->
-            </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="hs-item set-bg" data-setbg="img/slider/slider-2.jpg">
+        <div class="hs-content">
+          <div class="hsc-warp">
+            <h2>SPECIAL DISHES<span>.</span></h2>
 
-
-    <!-- <section class="inter-section spad">
-      <div class="container">
-        <div class="section-title">
-          <i class="flaticon-019-rib"></i>
-          <h2>Welcome</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4 intro-item">
-            <h3>2002</h3>
-            <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id
-              lobortis leo volutpat. </p>
-          </div>
-          <div class="col-md-4 intro-item">
-            <h3>2010</h3>
-            <p>Stpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin
-              est in libero pretium.</p>
-          </div>
-          <div class="col-md-4 intro-item">
-            <h3>2018</h3>
-            <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id
-              lobortis leo volutpat. </p>
-          </div>
-        </div>
-        <div class="text-center">
-          <img src="img/sign.png" alt="">
-        </div>
-      </div>
-    </section> -->
-
-
-    <!-- <section class="testimonials-section spad pb-0 set-bg" data-setbg="img/review-bg.jpg">
-      <div class="container">
-        <div class="section-title text-white">
-          <i class="flaticon-020-ice-cream"></i>
-          <h2>Testimonials</h2>
-        </div>
-        <div class="testimonials-slider owl-carousel">
-          <div class="ts-item text-white">
-            <div class="quota">“</div>
-            <p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst.
-              Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo
-              laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est
-              feu-giat ut. </p>
-            <h6><span>Ted Chapman</span>, Client</h6>
-          </div>
-          <div class="ts-item text-white">
-            <div class="quota">“</div>
-            <p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst.
-              Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo
-              laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est
-              feu-giat ut. </p>
-            <h6><span>Ted Chapman</span>, Client</h6>
-          </div>
-          <div class="ts-item text-white">
-            <div class="quota">“</div>
-            <p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst.
-              Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo
-              laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est
-              feu-giat ut. </p>
-            <h6><span>Ted Chapman</span>, Client</h6>
           </div>
         </div>
       </div>
-    </section> -->
-
-
-    <section class="services-section spad">
-      <div class="container">
-        <div class="section-title">
-          <i class="flaticon-022-tray"></i>
-          <h2>Our Services</h2>
-        </div>
-        <div class="row services">
-          <div class="col-lg-3 col-md-6 service-item">
-            <i class="flaticon-005-coffee-1"></i>
-            <h3>Breakfast</h3>
-            <!-- <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum.</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6 service-item">
-            <i class="flaticon-016-pancake"></i>
-            <h3>Brunch</h3>
-            <!-- <p>Scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis.</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6 service-item">
-            <i class="flaticon-008-soup"></i>
-            <h3>Lunch</h3>
-            <!-- <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum.</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6 service-item">
-            <i class="flaticon-032-hamburger"></i>
-            <h3>Dinner</h3>
-            <!-- <p>Aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendreri.</p> -->
+      <div class="hs-item set-bg" data-setbg="img/slider/slider-3.jpg">
+        <div class="hs-content">
+          <div class="hsc-warp">
+            <h2>DELICIOUS FOOD<span>.</span></h2>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-    <section class="menu-section spad set-bg" data-setbg="img/menu-bg.jpg">
-      <div class="container">
-        <div class="section-title text-white">
-          <i class="flaticon-022-tray"></i>
-          <h2>Our Menu</h2>
+  <section class="services-section spad">
+    <div class="container">
+      <div class="section-title">
+        <i class="flaticon-022-tray"></i>
+        <h2>Our Services</h2>
+      </div>
+      <div class="row services">
+        <div class="col-lg-3 col-md-6 service-item">
+          <i class="flaticon-005-coffee-1"></i>
+          <h3>Breakfast</h3>
         </div>
+        <div class="col-lg-3 col-md-6 service-item">
+          <i class="flaticon-016-pancake"></i>
+          <h3>Brunch</h3>
+        </div>
+        <div class="col-lg-3 col-md-6 service-item">
+          <i class="flaticon-008-soup"></i>
+          <h3>Lunch</h3>
+        </div>
+        <div class="col-lg-3 col-md-6 service-item">
+          <i class="flaticon-032-hamburger"></i>
+          <h3>Dinner</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <ul class="menu-tab-nav nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1"
-              aria-selected="true">Breakfast</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
-              aria-selected="false">Brunch</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
-              aria-selected="false">Lunch</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4"
-              aria-selected="false">Dinner</a>
-          </li>
-        </ul>
-        <div class="tab-content menu-tab-content">
 
-          <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-            <div class="row">
-              <div class="col-lg-6">
+  <section class="menu-section spad set-bg" data-setbg="img/menu-bg.jpg">
+    <div class="container">
+      <div class="section-title text-white">
+        <i class="flaticon-022-tray"></i>
+        <h2>Our Menu</h2>
+      </div>
 
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
+      <ul class="menu-tab-nav nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1"
+            aria-selected="true">Breakfast</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
+            aria-selected="false">Brunch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
+            aria-selected="false">Lunch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4"
+            aria-selected="false">Dinner</a>
+        </li>
+      </ul>
+      <div class="tab-content menu-tab-content">
 
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
+        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+          <div class="row">
+            <div class="col-lg-6">
 
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Soft-Boiled Organic Egg</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$8.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
                 </div>
               </div>
-              <div class="col-lg-6">
 
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
                 </div>
+              </div>
 
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
                 </div>
+              </div>
 
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Soft-Boiled Organic Egg</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$8.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Soft-Boiled Organic Egg</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$8.00</div>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="col-lg-6">
 
-          <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-            <div class="row">
-              <div class="col-lg-6">
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Soft-Boiled Organic Egg</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$8.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
                 </div>
               </div>
-              <div class="col-lg-6">
 
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-            <div class="row">
-              <div class="col-lg-6">
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
                 </div>
               </div>
-              <div class="col-lg-6">
 
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Soft-Boiled Organic Egg</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$8.00</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
-            <div class="row">
-              <div class="col-lg-6">
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs with ham</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$9.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Scrambled Eggs in Puff Pastry</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$11.00</div>
-                  </div>
-                </div>
-
-                <div class="menu-item">
-                  <h5>Eggs Benedict</h5>
-                  <div class="mi-meta">
-                    <p>with wild mushrooms and asparagus</p>
-                    <div class="menu-price">$6.00</div>
-                  </div>
+              <div class="menu-item">
+                <h5>Soft-Boiled Organic Egg</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$8.00</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- <div class="text-center pt-5">
-          <a href="#" class="site-btn">See More</a>
-        </div> -->
-      </div>
-    </section>
 
+        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+          <div class="row">
+            <div class="col-lg-6">
 
-    <!-- <footer class="footer-section">
-
-      <div class="map-warp" id="map-canvas"></div>
-      <div class="footer-bg-area set-bg" data-setbg="img/footer-bg.jpg">
-        <div class="contact-form-area">
-          <div class="container">
-            <div class="col-lg-10 offset-lg-1">
-              <div class="contact-form-warp">
-                <div class="section-title">
-                  <i class="flaticon-026-chicken-1"></i>
-                  <h2>Contact us</h2>
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
                 </div>
+              </div>
 
-                <form class="contact-form">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <input type="text" placeholder="Name">
-                    </div>
-                    <div class="col-md-6">
-                      <input type="email" placeholder="E-mail">
-                    </div>
-                    <div class="col-md-12">
-                      <textarea placeholder="Message"></textarea>
-                      <div class="text-center">
-                        <button class="site-btn">Send Message</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Soft-Boiled Organic Egg</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$8.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="copyright">
-          Copyright &copy;
-          <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i
-            class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/"
-            target="_blank">Colorlib</a>
 
+        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+          <div class="row">
+            <div class="col-lg-6">
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Soft-Boiled Organic Egg</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$8.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
+          <div class="row">
+            <div class="col-lg-6">
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs with ham</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$9.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Scrambled Eggs in Puff Pastry</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$11.00</div>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <h5>Eggs Benedict</h5>
+                <div class="mi-meta">
+                  <p>with wild mushrooms and asparagus</p>
+                  <div class="menu-price">$6.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer> -->
+    </div>
+  </section>
 
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/circle-progress.min.js"></script>
+  <script src="js/main.js"></script>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/circle-progress.min.js"></script>
-    <script src="js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
+  <script src="js/map.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
-    <script src="js/map.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-23581568-13');
-    </script>
-    <script defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
-      integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
-      data-cf-beacon='{"rayId":"7c117abcafc291ab","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
-      crossorigin="anonymous"></script>
-  </body>
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+    integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+    data-cf-beacon='{"rayId":"7c117abcafc291ab","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+    crossorigin="anonymous"></script>
+</body>
 
 </html>

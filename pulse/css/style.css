@@ -1,17 +1,11 @@
-/* =================================
-------------------------------------
-  Pulse - Restaurant HTML Template
-  Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 @font-face {
 	font-family: 'HelveticaNeueLTPro';
 	src: url("../fonts/HelveticaNeueLTPro-Md.woff");
+}
+
+@font-face {
+	font-family: Astera;
+	src: url(../fonts/astera/ASTERA\ v2.ttf);
 }
 
 html,
@@ -108,7 +102,7 @@ ul {
 	content: "";
 	width: 277px;
 	height: 1px;
-	background: #ffc515;
+	background: #ff0000;
 	top: 32px;
 }
 
@@ -167,7 +161,7 @@ ul {
 	padding: 20px 30px;
 	min-width: 229px;
 	border: none;
-	background: #ffc515;
+	background: #ff0000;
 	cursor: pointer;
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -180,11 +174,11 @@ ul {
 
 .site-btn.sb-dark {
 	background: #000000;
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .site-btn.sb-dark:hover {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 /* Preloder */
@@ -219,12 +213,14 @@ ul {
 		border: 4px solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
 		border: 4px solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -270,7 +266,7 @@ ul {
 }
 
 .accordion-area .panel-header .panel-link.collapsed {
-	background: #ffc515;
+	background: #ff0000;
 	color: #1d1d1d;
 }
 
@@ -293,7 +289,7 @@ ul {
 	padding: 21px 40px;
 	padding-left: 30px;
 	font-size: 16px;
-	background: #ffc515;
+	background: #ff0000;
 	color: #000;
 	cursor: pointer;
 }
@@ -321,7 +317,7 @@ ul {
 	border: none;
 	padding: 17px 38px;
 	margin-right: 4px;
-	background: #ffc515;
+	background: #ff0000;
 	margin-bottom: 10px;
 }
 
@@ -379,7 +375,7 @@ ul {
 
 .fact i {
 	font-size: 75px;
-	color: #ffc515;
+	color: #ff0000;
 	width: 100px;
 	float: left;
 	line-height: normal;
@@ -403,7 +399,7 @@ ul {
 
 .icon-boxe i {
 	display: block;
-	color: #ffc515;
+	color: #ff0000;
 	font-size: 40px;
 	margin-bottom: 25px;
 }
@@ -445,7 +441,7 @@ ul {
 }
 
 .site-logo h2 span {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .nav-switch {
@@ -475,7 +471,7 @@ ul {
 
 .main-menu li a:hover,
 .main-menu li a.active {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .header-right {
@@ -493,7 +489,7 @@ ul {
 }
 
 .header-right p span {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 /*------------------
@@ -530,7 +526,7 @@ ul {
 }
 
 .hs-content h2 span {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .hs-content p {
@@ -587,7 +583,7 @@ ul {
 }
 
 .hero-slider .owl-dots-number .owl-dot.active {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .hero-slider .owl-dots:not(.owl-dots-number) {
@@ -609,7 +605,7 @@ ul {
 }
 
 .hero-slider .owl-dots:not(.owl-dots-number) .owl-dot.active {
-	background: #ffc515;
+	background: #ff0000;
 }
 
 /*---------------------
@@ -648,7 +644,7 @@ ul {
 }
 
 .testimonials-slider .ts-item h6 span {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .testimonials-slider .owl-dots:not(.owl-dots-number) {
@@ -668,7 +664,7 @@ ul {
 }
 
 .testimonials-slider .owl-dots:not(.owl-dots-number) .owl-dot.active {
-	background: #ffc515;
+	background: #ff0000;
 }
 
 /*---------------------
@@ -717,7 +713,7 @@ ul {
 .menu-tab-nav.nav-tabs .nav-item .nav-link.active {
 	background-color: transparent;
 	border: none;
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .menu-tab-nav.nav-tabs .nav-item .nav-link:hover {
@@ -880,7 +876,7 @@ ul {
 }
 
 .page-top-info h2 span {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 /*---------------
@@ -902,7 +898,7 @@ ul {
 }
 
 .chef h4 {
-	color: #ffc515;
+	color: #ff0000;
 	padding-top: 40px;
 	margin-bottom: 30px;
 }
@@ -981,12 +977,12 @@ ul {
 .mp-menu-tab-nav .nav-item .nav-link.active {
 	background: #fff;
 	border: none;
-	outline: 1px solid #ffc515;
+	outline: 1px solid #ff0000;
 	outline-offset: -1px;
 }
 
 .mp-menu-tab-nav .nav-item .nav-link.active h5 {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .mp-menu-tab-nav .nav-item .nav-link:hover {
@@ -1022,7 +1018,7 @@ ul {
 
 .blog-item .blog-date {
 	color: #000;
-	background: #ffc515;
+	background: #ff0000;
 	display: inline-block;
 	min-width: 144px;
 	text-align: center;
@@ -1056,7 +1052,7 @@ ul {
 
 .site-pagination a.active {
 	min-width: 37px;
-	background: #ffc515;
+	background: #ff0000;
 }
 
 .sb-widget {
@@ -1092,7 +1088,7 @@ ul {
 }
 
 .sb-widget ul li a:hover {
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .sb-search {
@@ -1107,7 +1103,7 @@ ul {
 	background-color: transparent;
 	font-size: 12px;
 	color: #828282;
-	border-bottom: 3px solid #ffc515;
+	border-bottom: 3px solid #ff0000;
 }
 
 .sb-search button {
@@ -1136,7 +1132,7 @@ ul {
 
 .latest-posts-widget .lp-content span {
 	font-size: 12px;
-	color: #ffc515;
+	color: #ff0000;
 }
 
 .latest-posts-widget .lp-content h6 {
@@ -1179,7 +1175,7 @@ ul {
 .ci-item .ca-icon {
 	width: 42px;
 	height: 42px;
-	background: #ffc515;
+	background: #ff0000;
 	color: #fff;
 	text-align: center;
 	font-size: 22px;
@@ -1227,6 +1223,7 @@ ul {
 	.main-menu {
 		padding-right: 70px;
 	}
+
 	.main-menu li a {
 		margin-left: 20px;
 	}
@@ -1235,25 +1232,32 @@ ul {
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
 	.section-title h2:after,
 	.section-title h2:before {
 		width: 190px;
 	}
+
 	.site-logo {
 		width: 180px;
 	}
+
 	.main-menu {
 		padding-right: 20px;
 	}
+
 	.main-menu li a {
 		margin-left: 20px;
 	}
+
 	.header-right {
 		width: 290px;
 	}
+
 	.hs-content h2 {
 		font-size: 80px;
 	}
+
 	.hero-slider .owl-dots-number {
 		left: 100px;
 	}
@@ -1265,33 +1269,42 @@ ul {
 	.header-right {
 		display: none;
 	}
+
 	.main-menu {
 		padding-right: 40px;
 	}
+
 	.hs-content h2,
 	.page-top-info h2 {
 		font-size: 70px;
 	}
+
 	.hero-slider .owl-dots-number {
 		left: 40px;
 	}
+
 	.section-title h2:after,
 	.section-title h2:before {
 		width: 100px;
 	}
+
 	.contact-img {
 		display: none;
 	}
+
 	.mp-menu-tab-nav .nav-item {
 		width: 50%;
 		margin-bottom: 20px;
 	}
+
 	.featured-section {
 		background-image: none !important;
 	}
+
 	.sidebar {
 		padding-top: 60px;
 	}
+
 	.cp-item,
 	.fact,
 	.icon-boxe {
@@ -1308,12 +1321,15 @@ ul {
 		display: inline-block;
 		border-right: none;
 	}
+
 	.header-section {
 		display: block;
 	}
+
 	.page-top-info {
 		height: 400px;
 	}
+
 	.nav-switch {
 		display: block;
 		float: right;
@@ -1324,6 +1340,7 @@ ul {
 		cursor: pointer;
 		padding-right: 30px;
 	}
+
 	.main-menu {
 		display: none;
 		position: absolute;
@@ -1334,58 +1351,74 @@ ul {
 		left: 0;
 		top: 100%;
 	}
+
 	.main-menu li {
 		display: block;
 		border-bottom: 1px solid #ddd;
 	}
+
 	.main-menu li a {
 		padding: 13px 5px;
 		color: #000;
 	}
+
 	.main-menu li a:hover {
-		color: #ffc515;
+		color: #ff0000;
 	}
+
 	.header-right {
 		display: none;
 	}
+
 	.hs-item {
 		height: auto;
 		padding: 250px 0;
 	}
+
 	.hs-content h2,
 	.page-top-info h2 {
 		font-size: 60px;
 	}
+
 	.hero-slider .owl-dots-number {
 		display: none;
 	}
+
 	.section-title h2 {
 		font-size: 38px;
 	}
+
 	.section-title h2:after,
 	.section-title h2:before {
 		width: 100px;
 		top: 23px;
 	}
+
 	.contact-form-warp {
 		padding: 45px 50px 65px;
 	}
+
 	.footer-bg-area {
 		height: 615px;
 	}
+
 	.contact-img {
 		display: none;
 	}
+
 	.mp-menu-tab-nav .nav-item {
 		width: 50%;
 		margin-bottom: 20px;
 	}
+
 	.featured-section {
 		background-image: none !important;
 	}
+
 	.sidebar {
 		padding-top: 60px;
 	}
+
 	.cp-item,
 	.fact,
 	.icon-boxe {
@@ -1399,19 +1432,24 @@ ul {
 	.contact-form-warp {
 		padding: 45px 30px 65px;
 	}
+
 	.footer-bg-area {
 		height: 590px;
 	}
+
 	.section-title h2:after,
 	.section-title h2:before {
 		display: none;
 	}
+
 	.section-title h2 {
 		font-size: 30px;
 	}
+
 	.section-title i {
 		font-size: 50px;
 	}
+
 	.mp-menu-tab-nav .nav-item {
 		width: 100%;
 		margin-bottom: 20px;
@@ -1421,13 +1459,16 @@ ul {
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+
 	.hs-content h2,
 	.page-top-info h2 {
 		font-size: 40px;
 	}
+
 	.site-btn {
 		min-width: 190px;
 	}
+
 	.hs-content p {
 		padding-top: 10px;
 		text-align: center;

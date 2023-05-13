@@ -2412,7 +2412,7 @@ h5,
   font-size: 14px;
   background: #101010;
   padding-left: 1700px;
-  margin-bottom: 2px;
+  border-bottom: 2px solid white;
 }
 
 @media (max-width: 991.98px) {
