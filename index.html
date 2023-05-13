@@ -137,22 +137,22 @@
 						<a href="#" class="nav-link">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a href="about.html" class="nav-link">ABOUT</a>
-					</li>
-					<li class="nav-item">
 						<a href="programs.html" class="nav-link">PROGRAMS</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">TRAINERS</a>
+						<a href="gym/gym.html" class="nav-link">GYM</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">CONTACT</a>
+						<a href="pulse/index.html" class="nav-link">CAFE</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">SALON</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">PARLOR</a>
 					</li>
 					<li class="nav-item">
 						<a href="login.html" class="nav-link">LOGIN</a>
-					</li>
-					<li class="nav-item">
-						<a href="register.html" class="nav-link">REGISTER</a>
 					</li>
 				</ul>
 			</div>
@@ -212,17 +212,24 @@
 				</div>
 			</div>
 		</div>
-
-
 	</section>
-	<!-- body section -->
 	<section class="ftco-section bg-light">
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-7 heading-section ftco-animate text-center">
-					<span class="subheading"><small><i class="left-bar"></i>Starbase Club<i
-								class="right-bar"></i></small></span>
-					<h2 class="mb-1">WHAT WE OFFER</h2>
+					<h5 class="mb-1">Who we are</h5>
+					<h2 class="about-us-text">STARBASE is a lifestyle lounge
+						which includes Gym (Steam - Sauna), Yoga, Zumba, Cafe, Saloon,
+						Parlor, VIP Lounge, Shop etc. The largest lifestyle lounge in town, with over 18,500 sqft
+						footprint, is equipped with
+						cutting edge technology and
+						magnificent ambience.</h2>
+					<p><a href="register.html" class="btn btn-primary p-3">Join Us</a></p>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section ftco-animate text-center">
+					<h5 class="mb-1">What we offer</h5>
 				</div>
 			</div>
 			<div class="row">
@@ -262,85 +269,6 @@
 							</div>
 						</div>
 					</a>
-				</div>
-			</div>
-			<div class="row mt-5">
-				<div class="col-md-4">
-					<div class="services d-flex ftco-animate">
-						<div class="icon-2 d-flex justify-content-center align-items-center">
-							<span class="flaticon-ruler"></span>
-						</div>
-						<div class="text px-md-2 pl-4">
-							<h3>1K+ Equipment</h3>
-							<p>
-								Starbase is fitted with a variety of top tier, high quality equipments that will
-								meet
-								all your exercise needs.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="services d-flex ftco-animate">
-						<div class="icon-2 d-flex justify-content-center align-items-center">
-							<span class="flaticon-gym"></span>
-						</div>
-						<div class="text px-md-2 pl-4">
-							<h3>Open 24/7</h3>
-							<p>
-								Services at Starbase are available at all times for your utmost convinience.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="services d-flex ftco-animate">
-						<div class="icon-2 d-flex justify-content-center align-items-center">
-							<span class="flaticon-tools-and-utensils"></span>
-						</div>
-						<div class="text px-md-2 pl-4">
-							<h3>Restaurant & Cafe</h3>
-							<p>
-								The cafe offers a sophisticated and upscale atmosphere for
-								patrons to indulge in premium
-								beverages and snacks.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="ftco-appointment mb-5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row d-md-flex align-items-center">
-				<div class="col-md-6 d-flex align-self-stretch img" style="background-image: url(images/bmi.jpg)">
-				</div>
-				<div class="col-md-6 appointment pl-md-5 py-md-5 ftco-animate">
-					<h3 class="mb-3">Calculate Your BMI</h3>
-					<form class="appointment-form" onsubmit="event.preventDefault(); calculateBMI()">
-						<div class="form-group">
-							<label for="height">Height</label>
-							<div class="d-flex">
-								<input type="text" class="form-control mr-2" id="height" placeholder="in cm" />
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="d-flex">
-								<div class="mr-2">
-									<label for="weight">Weight</label>
-									<input type="text" class="form-control" id="weight" placeholder="in kg" />
-								</div>
-							</div>
-						</div>
-						<div class="d-md-flex">
-							<div class="form-group d-flex">
-								<input type="submit" value="Calculate" class="btn btn-secondary py-3 px-4 mr-2" />
-								<input type="text" readonly value="-" id="bmi" class="btn btn-info py-3 px-4 ml-2" />
-							</div>
-					</form>
 				</div>
 			</div>
 		</div>
@@ -414,7 +342,7 @@
 							document.write(new Date().getFullYear());
 						</script>
 						All rights reserved by
-						<a href="index.html" target="_blank">Team Alpha</a>
+						<a href="#" target="_blank">Team Alpha</a>
 					</p>
 				</div>
 			</div>
@@ -457,26 +385,6 @@
 
 		gtag('config', 'UA-23581568-13');
 
-		function calculateBMI() {
-			let height = document.getElementById("height").value;
-			let weight = document.getElementById("weight").value;
-			if (height && weight) {
-				height = 0.01 * height;
-				let bmi = (weight / (height * height)).toFixed(2);
-				if (bmi < 18.5) {
-					document.getElementById("bmi").value = bmi + " - Underweight";
-				} else if (bmi >= 18.5 && bmi <= 24.9) {
-					document.getElementById("bmi").value = bmi + " - Normal";
-				} else if (bmi >= 25 && bmi <= 29.9) {
-					document.getElementById("bmi").value = bmi + " - Overweight";
-				} else if (bmi >= 30) {
-					document.getElementById("bmi").value = bmi + " - Obese";
-				}
-				// document.getElementById("bmi").value = bmi;
-			} else {
-				alert("Please enter height and weight");
-			}
-		}
 	</script>
 	<script defer
 		src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
