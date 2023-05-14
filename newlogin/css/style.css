@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    background: #101010;
+    background: #ffffff;
 }
 
 input,
@@ -233,7 +233,7 @@ label {
 
 label span {
     font-size: 12px;
-    color: #ff0000;
+    color: #000000;
     text-transform: uppercase;
 }
 
@@ -251,7 +251,7 @@ input {
     margin-top: 15px;
     text-align: center;
     font-size: 12px;
-    color: #ff0000;
+    color: #000000;
 }
 
 .submit {
@@ -263,12 +263,12 @@ input {
 
 .fb-btn {
     border: 2px solid #d3dae9;
-    color: #ff0000;
+    color: #8fa1c7;
 }
 
 .fb-btn span {
     font-weight: bold;
-    color: #ff0000;
+    color: #455a81;
 }
 
 .sign-in {

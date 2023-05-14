@@ -420,13 +420,13 @@
 				height = 0.01 * height;
 				let bmi = (weight / (height * height)).toFixed(2);
 				if (bmi < 18.5) {
-					document.getElementById("bmi").value = bmi + " - Underweight";
+					document.getElementById("bmi").value = "BMI: " + bmi + " - Underweight";
 				} else if (bmi >= 18.5 && bmi <= 24.9) {
-					document.getElementById("bmi").value = bmi + " - Normal";
+					document.getElementById("bmi").value = "BMI: " + bmi + " - Normal";
 				} else if (bmi >= 25 && bmi <= 29.9) {
-					document.getElementById("bmi").value = bmi + " - Overweight";
+					document.getElementById("bmi").value = "BMI: " + bmi + " - Overweight";
 				} else if (bmi >= 30) {
-					document.getElementById("bmi").value = bmi + " - Obese";
+					document.getElementById("bmi").value = "BMI: " + bmi + " - Obese";
 				}
 				// document.getElementById("bmi").value = bmi;
 			} else {

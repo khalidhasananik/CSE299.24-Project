@@ -4324,7 +4324,7 @@ textarea.form-control {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 700px;
-  height: 685px;
+  height: 850px;
   border: 8px solid;
   border-image: linear-gradient(-50deg, #101010, #5b5c61, rgb(34, 36, 34), #101010, #5b5c61, #464746, #101010) 1;
   margin: 2rem auto;
@@ -4364,7 +4364,6 @@ textarea.form-control {
   background-image: url("../images/Gemini.jpeg");
   background-size: cover;
   transition: .3s ease-in-out;
-  /* border: 1px solid green; */
 }
 
 .image-content {
@@ -4376,7 +4375,6 @@ textarea.form-control {
   background-image: url("../images/Phoenix.jpeg");
   background-size: cover;
   transition: .3s ease-in-out;
-  /* border: 1px solid green; */
 }
 
 .dots {
@@ -4403,12 +4401,13 @@ textarea.form-control {
 
 .text-reactive {
   position: absolute;
-  top: 0;
+  top: 0px;
   right: 0;
   width: 60vmin;
   height: 100%;
-  padding: 3vmin 4vmin;
-  background: black;
+
+  background: transparent;
+  background-size: cover;
   box-shadow: inset 1px 1px 15px 0 rgba(0 0 0 / .4);
   /* overflow-y: scroll; */
 }
@@ -4417,11 +4416,7 @@ textarea.form-control {
   transform: translateX(-60vmin);
 }
 
-/* .wrap:hover .image-content {
-  width: 30vmin;
-}
-
-.wrap:hover .image-content2 {
+/* .wrap:hover .image-content2 {
   width: 30vmin;
 } */
 
